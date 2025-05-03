@@ -75,36 +75,45 @@
 \begin{document}
 
 % Header
-\vspace{-3em}
+
+\vspace{-5em}
 \noindent
-\makebox[\textwidth][t]{%
+\begin{tabular}{@{}m{0.32\textwidth}@{\hspace{0.1em}} m{0.32\textwidth}@{\hspace{0.1em}} m{0.35\textwidth}@{}}
 
-% Column 1: Image
-\begin{minipage}[c]{0.3\textwidth}
-  \includegraphics[width=0.8\linewidth]{images/my_image.jpg}
-\end{minipage}%
-\hspace{1em}
+% -- Column 1: Image --
 
-% Column 2: Name Block (baseline centered)
-\begin{minipage}[c]{0.35\textwidth}
-  {\fontsize{30pt}{32pt}\selectfont \textbf{\textcolor{name_color}{Amr}}}\\\\[-0.4em]
-  \hspace{2.5em}{\fontsize{20pt}{22pt}\selectfont \textcolor{surname_color}{Aboughazala}}\\[0.8em]
-\end{minipage}%
-\hfill
+\includegraphics[width=0.6\linewidth]{images/my_image.jpg}
 
-% Column 3: Contact Info (forced to align at top)
-\begin{minipage}[t]{0.35\textwidth}
-  \begin{flushright}
-    \textcolor{name_color}{\faEnvelope }\textcolor{linkcolor}{~\href{mailto:amr.abughazala@gmail.com}{amr.abughazala@gmail.com}}\\
-    \textcolor{name_color}{\faPhone~+49 174 5969 482} \\
-    \textcolor{name_color}{\faHome~Wieland Straße, Ulm, 89073} \\[1.5em]
-    
-    \textcolor{linkcolor}{\href{https://www.linkedin.com/in/amr-a-063776157/}{LinkedIn}} \quad
-    \textcolor{linkcolor}{\href{https://www.xing.com/profile/Amr_Aboughazala/cv}{Xing}} \quad
-    \textcolor{linkcolor}{\href{https://amr-aboughazala.super.site/}{Portfolio Site}}
-  \end{flushright}
-\end{minipage}%
-}
+&
+
+% -- Column 2: Name --
+\raggedright
+{\fontsize{45pt}{45pt}\selectfont \textbf{\textcolor{name_color}{Amr}}}\\ [0.1em]
+{\hspace{10pt}{\fontsize{30pt}{30pt}\selectfont \textcolor{surname_color}{Aboughazala}}}
+&
+
+% -- Column 3: Contact Info --
+\hspace{60pt} % Shift the box right
+\begin{minipage}[t]{0.25\textwidth}
+\raggedright
+
+\textcolor{name_color}{\faMapMarker~Wieland Straße, Ulm}\\
+\hspace{1em}\textcolor{name_color}{Baden-Württemberg 89073}\\
+\textcolor{name_color}{\faPhone~+49 174 5969 482}\\
+\textcolor{name_color}{\faEnvelope~}
+\textcolor{linkcolor}{\href{mailto:amr.abughazala@gmail.com}{amr.abughazala@gmail.com}}
+\textcolor{name_color}{\faCalendar}~\textcolor{name_color}{04.12.1986} \quad
+\textcolor{name_color}{\faHome}~\textcolor{name_color}{Egyptian} \\[0.7em]
+\textcolor{name_color}{\faLinkedin}~\textcolor{linkcolor}{\href{https://www.linkedin.com/in/amr-a-063776157/}{LinkedIn}}\\
+\textcolor{name_color}{\faXing}~\textcolor{linkcolor}{\href{https://www.xing.com/profile/Amr_Aboughazala/cv}{Xing}}\\
+\textcolor{name_color}{\faGlobe}~\textcolor{linkcolor}{\href{https://amr-aboughazala.super.site/}{Portfolio Site}}
+
+\end{minipage}
+
+
+\end{tabular}
+
+
 
 
 % Objective
@@ -279,7 +288,7 @@
 \noindent\makebox[\textwidth][c]{%
 \begin{minipage}[t]{0.2\textwidth}
 \begin{center}
-\textbf{{\fontsize{10pt}{10pt}\selectfont\textcolor{skilltitle_color}{Languages}}} \\[0.5em]
+\textbf{{\fontsize{12pt}{12pt}\selectfont\textcolor{skilltitle_color}{Coding}}} \\[0.5em]
 \begin{tabular}{@{}l l@{}}
 Matlab & \circles{6}{6}\\
 Python & \circles{6}{6}\\
@@ -292,7 +301,7 @@ C\# & \circles{3}{6}
 \hspace{1em}
 \begin{minipage}[t]{0.65\textwidth}
   \begin{center}
-  \textbf{{\fontsize{10pt}{10pt}\selectfont\textcolor{skilltitle_color}{Libraries}}}
+  \textbf{{\fontsize{12pt}{12pt}\selectfont\textcolor{skilltitle_color}{Libraries}}} \\[0.5em]
   \end{center}
   \begin{minipage}[t]{0.4\textwidth}
     \textbf{DATA:} numpy, pandas, scipy\\
@@ -311,7 +320,7 @@ C\# & \circles{3}{6}
 \hspace{1em}
 \begin{minipage}[t]{0.22\textwidth}
   \begin{center}
-  \textbf{{\fontsize{10pt}{10pt}\selectfont\textcolor{skilltitle_color}{Libraries}}} \\[0.5em]
+  \textbf{{\fontsize{12pt}{12pt}\selectfont\textcolor{skilltitle_color}{Technical Fields}}} \\[0.5em]
   Signal Processing\\
   {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color} {\href{https://math.stackexchange.com/users/282534/mour-ka}{Optimization-Mathematics}}}\\
   Machine Learning\\
