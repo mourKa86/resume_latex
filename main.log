@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  4 JUN 2025 16:54
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  24 JUN 2025 09:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1114,6 +1114,11 @@ Overfull \hbox (3.37578pt too wide) in paragraph at lines 262--276
 
 Underfull \hbox (badness 10000) in paragraph at lines 334--334
 \TU/calibri.ttf(0)/b/n/10 PLOT: matplotlib, plotly, pyqt-
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 334--334
+\TU/calibri.ttf(0)/b/n/10 LIDAR: open3D, OpenMMLab, Open3D-
  []
 
 
