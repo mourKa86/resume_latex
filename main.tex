@@ -21,19 +21,20 @@
 
 
 % Custom colors
-\definecolor{bgcolor_color}{HTML}{423b28}
-\definecolor{name_color}{HTML}{b9ad8c}
-\definecolor{surname_color}{HTML}{877952}
-\definecolor{title_color}{HTML}{b9ad8c}
-\definecolor{blocktitle1_color}{HTML}{93d07c}
-\definecolor{blocktitle2_color}{HTML}{669793}
-\definecolor{blocktext1_color}{HTML}{B6E1E7}
-\definecolor{blocktext2_color}{HTML}{3a7688}
-\definecolor{linkcolor}{HTML}{43bbba}
-\definecolor{skilltitle_color}{HTML}{93d07b}
-\definecolor{filled_circle}{HTML}{d3cbb6}
-\definecolor{empty_circle}{HTML}{887952}
-\definecolor{dimmed}{HTML}{877952}
+\definecolor{bgcolor_color}{HTML}{FFFFFF}    % White background
+\definecolor{name_color}{HTML}{1a1a1a}       % Very dark gray for name
+\definecolor{surname_color}{HTML}{444444}    % Medium gray for surname
+\definecolor{title_color}{HTML}{2a4b7c}       % Professional blue for section titles
+\definecolor{blocktitle1_color}{HTML}{2a4b7c} % Match section titles
+\definecolor{blocktitle2_color}{HTML}{666666} % Lighter gray for company names or roles
+\definecolor{blocktext1_color}{HTML}{000000}  % Main text in black
+\definecolor{blocktext2_color}{HTML}{4d4d4d}  % Descriptive text / sources
+\definecolor{linkcolor}{HTML}{1a73e8}         % Google-style link blue
+\definecolor{skilltitle_color}{HTML}{2a4b7c}  % Same as title for consistency
+\definecolor{filled_circle}{HTML}{2a4b7c}     % Filled skill circle in blue
+\definecolor{empty_circle}{HTML}{cccccc}      % Empty circle in light gray
+\definecolor{dimmed}{HTML}{999999}            % For secondary info like language levels
+
 
 
 \usepackage[colorlinks=true, linkcolor=linkcolor, urlcolor=linkcolor]{hyperref}
@@ -87,9 +88,14 @@
 &
 
 % -- Column 2: Name --
-\raggedright
-{\fontsize{45pt}{45pt}\selectfont \textbf{\textcolor{name_color}{Amr}}}\\ [0.1em]
-{\hspace{10pt}{\fontsize{30pt}{30pt}\selectfont \textcolor{surname_color}{Aboughazala}}}
+%\raggedright
+%{\hspace{70pt}{\fontsize{40pt}{40pt}\selectfont \textbf{\textcolor{name_color}{Amr}}}\\ [0.45em]
+%{\fontsize{40pt}{40pt}\selectfont \textcolor{surname_color}{Aboughazala}}}
+
+\centering
+{\fontsize{40pt}{40pt}\selectfont \textbf{\textcolor{name_color}{Amr}}}\\[0.45em]
+{\fontsize{40pt}{40pt}\selectfont \textcolor{surname_color}{Aboughazala}}
+
 &
 
 % -- Column 3: Contact Info --
@@ -143,28 +149,42 @@
                                   % ------ Scantinel Block ------ %
 \vspace{-1em}
 \begin{itemize}[leftmargin=*]
- \item Responsible of R\&D, implementation, testing and enhancing of a novel algorithm for Doppler ambiguity in FMCW LiDAR systems.
+ \item Conducted R\&D, implementation, testing and enhancing of a novel algorithm for Doppler ambiguity in FMCW LiDAR systems.
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/doppler-ambiguity-solution}{Sources}}}: VQRV, VTRV, VQR}}
+  
+\vspace{0.2em}
 
   \item Proposed and implemented an internal perception pipeline (filtering, segmentation, object detection, tracking).\\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/projects/perception}{Sources}}}: Ransac, knn, kd-tree, JPDA Tracking}}. 
   \item Designed novel filters improving performance from 450 ms to 30 ms 
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/real-time-filtering}{Sources}}}: Dense Cluster Filter “DCL” and the Multilevel Neighboring Filter “MLN”}}
+  
+\vspace{0.2em}
 
  \item Implemented and applied classical windowing and detection methods on raw signal data to evaluate detection reliability, supported by statistical analysis. 
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/data-analysis}{Sources}: Windows (Hann, Chebyshev, Planck-Taper), Peak Detection: (CA-CFAR, OS-CFAR, RANSAC, M-estimator)}}
+  
+\vspace{0.2em}
+  
   \item Simulated a dual-signal FFT technique real/imaginary packing to enable simultaneous processing.
 
+\vspace{0.2em}  
+  
   \item Architected the system software using MVC pattern in PyQt, coordinating closely with the embedded team to align hardware and software development efforts. 
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: Pattern design MVC/MVVM }}    
+  
+\vspace{0.2em}
+
   \item  Developed and maintained real-time and offline visualization GUIs supporting continuous feature development and release cycles for internal users and customers over two years. 
-  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: python, PyQt}}     
+  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: python, PyQt}} 
+
+\vspace{0.2em}  
+      
   \item Developed a user-facing GUI integrating multiple signal processing algorithms and visualization tools, enabling interactive analysis and testing across devices with real-time performance evaluation.
-  \item implementing testing development creating unit, integration and functional testing. 
-  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: pytest}}  
+
 \end{itemize}                
                 
                                   % ------ Navimatix Head ------ %                 
-\vspace{1em}                                  
+\vspace{2em}                                  
 \begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
   \raisebox{1.3em}{\includegraphics[width=0.9cm]{images/navi2_logo.png}} & 
   \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
@@ -184,14 +204,19 @@
 \vspace{-1em}
 \begin{itemize}[leftmargin=*]
  \item A full pipeline image processing algorithms for bacteria counting on Fluorescence Images.\\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Sources: Median Filter, ISODATA Segmentation, Opening Filter, 2D \& 3D counting}}}
+ 
+ \vspace{0.2em}
 
   \item Developed a GUI applying image processing algorithm on Microscopic Images to count bacteria.
+  
+  \vspace{0.2em}
+  
   \item Implemented several user interface applications. 
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: JavaFX, .Net Framework WPF and Delphi.}}  
 \end{itemize}  
 
                              % ------ Siemens Head ------ %
-\vspace{1.3em}
+\vspace{2em} 
 \begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
   \raisebox{-0.3em}{\includegraphics[width=0.9cm]{images/siemens4_logo.jpg}} & 
   \raisebox{1em}{\begin{minipage}[t]{\linewidth}
@@ -215,7 +240,7 @@
 
 
                              % ------ Orange Head ------ %
-\vspace{1.3em}
+\vspace{2em} 
 \begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
   \raisebox{-0.3em}{\includegraphics[width=0.9cm]{images/orange_logo.jpg}} & 
   \raisebox{1em}{\begin{minipage}[t]{\linewidth}
@@ -236,6 +261,9 @@
 \vspace{0.4em}
 \begin{itemize}[leftmargin=*]
   \item Diagnose WAN network fault-related cases both proactive and reactive being responsible of the faults to resolution.
+
+\vspace{0.2em}  
+  
   \item Shift Leader for a group of 5 to 10 daily, managing the workflow through the team. 
 \end{itemize}
 
@@ -267,9 +295,12 @@
   \item Major Subjects: Mobile Communications Engineering, Adaptive Array and Signal Processing, Digital Signal Processing (audio and Image) and Communication Networks.
   \item Average grade: 2.2/1.0
 
+\vspace{0.2em}
+
   \item \underline{\textbf{Master Thesis 'Positivity Decomposition Algorithms on EEG/MEG Data'}}: Implemented non-negativity constraints on tensor-based blind source separation algorithm 
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Sources: {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://ieeexplore.ieee.org/document/8313193}{Publication}}, {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/non-negative-semi-algebraic-cp-decomposition-via-simultaneous-matrix-diagonalization}{Thesis Publication (not completed)}}}}}}
-  
+
+\vspace{0.2em}  
 
   \item \underline{\textbf{Advanced Research Project 'Decomposition of a Low Rank Tensor with Missing Entries'}}: Developed a missing imputation tensor algorithm to make it adaptive as per step size and rank estimation.
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/decomposition-of-a-low-rank-tensor-with-missing-entries}{Sources}}}       
@@ -278,7 +309,7 @@
                                          
                                  
                                    % ------ Bachelor Head ------ %  
-\vspace{0.4em}                       
+\vspace{2em}                       
 \begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
   \raisebox{1.3em}{\includegraphics[width=1cm]{images/astmt5_logo.png}} & 
   \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
@@ -298,6 +329,9 @@
 \vspace{-1em}
 \begin{itemize}[leftmargin=*]
   \item Major Subjects: Wireless and Mobile Communications, Analog and Digital Signal Processing, Communication Networks, Electromagnetic and Antenna theories.
+
+\vspace{0.2em}  
+  
   \item Average grade: 1.3/1.0 – Excellent with degree of honor besides graduating top of my class.
 \end{itemize}   
 
@@ -376,9 +410,9 @@ C\# & \circles{3}{6}
 \vspace{0.4em}
     {\footnotesize
     \begin{tabular}{@{}l l@{}}
-    \selectfont\textcolor{dimmed}{Hören} & \circles{2}{6}\\
-    \selectfont\textcolor{dimmed}{Lesen} & \circles{2}{6}\\
-    \selectfont\textcolor{dimmed}{Schreiben} & \circles{2}{6}\\
+    \selectfont\textcolor{dimmed}{Hören} & \circles{3}{6}\\
+    \selectfont\textcolor{dimmed}{Lesen} & \circles{4}{6}\\
+    \selectfont\textcolor{dimmed}{Schreiben} & \circles{4}{6}\\
     \selectfont\textcolor{dimmed}{Sprechen} & \circles{2}{6}\\
     \end{tabular}
     }
