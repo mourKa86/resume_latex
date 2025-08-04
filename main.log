@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  24 JUN 2025 09:11
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  4 AUG 2025 12:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1012,118 +1012,69 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: images/scantinel_logo.png Graphic file (type bmp)
 <images/scantinel_logo.png>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 128--128
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 129--129
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 129--134
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 130--135
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 127--141
-[][] 
- []
-
-File: images/scantinel_logo.png Graphic file (type bmp)
-<images/scantinel_logo.png>
-
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 152--152
-[]|[]| 
- []
-
-
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 153--158
-[]|[]| 
- []
-
-
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 151--165
-[][] 
- []
-
-File: images/scantinel_logo.png Graphic file (type bmp)
-<images/scantinel_logo.png>
-
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 182--182
-[]|[]| 
- []
-
-
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 183--188
-[]|[]| 
- []
-
-
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 181--195
-[][] 
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 128--142
+ [] 
  []
 
 File: images/navi2_logo.png Graphic file (type bmp)
 <images/navi2_logo.png>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 211--211
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 169--169
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 212--217
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 170--175
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 210--224
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 168--182
 [][] 
  []
 
-File: images/ilmenau1_logo.png Graphic file (type bmp)
-<images/ilmenau1_logo.png>
+File: images/siemens4_logo.jpg Graphic file (type bmp)
+<images/siemens4_logo.jpg>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 238--238
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 196--196
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 239--244
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 197--202
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 237--251
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 195--209
 [][] 
  []
 
-File: images/ilmenau1_logo.png Graphic file (type bmp)
-<images/ilmenau1_logo.png>
+File: images/orange_logo.jpg Graphic file (type bmp)
+<images/orange_logo.jpg>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 263--263
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 220--220
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 264--269
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 221--226
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 262--276
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 219--233
 [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
-\TU/calibri.ttf(0)/b/n/10 PLOT: matplotlib, plotly, pyqt-
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 334--334
-\TU/calibri.ttf(0)/b/n/10 LIDAR: open3D, OpenMMLab, Open3D-
- []
-
-
-Overfull \hbox (0.50711pt too wide) in paragraph at lines 289--335
-|  [] 
  []
 
 
@@ -1131,106 +1082,59 @@ Overfull \hbox (0.50711pt too wide) in paragraph at lines 289--335
 [1
 
 ]
-File: images/scantinel_logo.png Graphic file (type bmp)
-<images/scantinel_logo.png>
-
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 343--343
-[]|[]| 
- []
-
-
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 344--349
-[]|[]| 
- []
-
-
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 342--356
- [] 
- []
-
-File: images/navi2_logo.png Graphic file (type bmp)
-<images/navi2_logo.png>
-
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 372--372
-[]|[]| 
- []
-
-
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 373--378
-[]|[]| 
- []
-
-
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 371--385
-[][] 
- []
-
-File: images/siemens4_logo.jpg Graphic file (type bmp)
-<images/siemens4_logo.jpg>
-
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 397--397
-[]|[]| 
- []
-
-
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 398--403
-[]|[]| 
- []
-
-
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 396--410
-[][] 
- []
-
-File: images/orange_logo.jpg Graphic file (type bmp)
-<images/orange_logo.jpg>
-
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 421--421
-[]|[]| 
- []
-
-
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 422--427
-[]|[]| 
- []
-
-
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 420--434
-[][] 
- []
-
 File: images/ilmenau1_logo.png Graphic file (type bmp)
 <images/ilmenau1_logo.png>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 447--447
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 250--250
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 448--453
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 251--256
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 446--460
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 249--263
  [] 
+ []
+
+
+Overfull \hbox (3.56017pt too wide) in paragraph at lines 270--272
+[]$[]$\TU/calibri.ttf(0)/b/n/10 : Implemented non-negativity constraints on ten
+sor-based
  []
 
 File: images/astmt5_logo.png Graphic file (type bmp)
 <images/astmt5_logo.png>
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 473--473
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 283--283
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 474--479
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 284--289
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 472--486
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 282--296
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\TU/calibri.ttf(0)/b/n/10 PLOT: matplotlib, plotly, pyqt-
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 365--365
+\TU/calibri.ttf(0)/b/n/10 LIDAR: open3D, OpenMMLab, Open3D-
+ []
+
+
+Overfull \hbox (0.50711pt too wide) in paragraph at lines 320--366
+|  [] 
  []
 
 
@@ -1250,7 +1154,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  26449 strings out of 405075
  517868 string characters out of 5499983
- 994087 words of memory out of 5000000
+ 989087 words of memory out of 5000000
  52696 multiletter control sequences out of 15000+600000
  630088 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
