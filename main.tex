@@ -129,9 +129,11 @@
 
           %% ---------------- Industry Experience ---------------- %%
                       
-\sectionline{Industry Experience}                    
-                                    % ------ Scantinel Head ------ %                         
-{\hspace{1.5em}}\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
+                      %% ---------------- R&D ---------------- %%
+\sectionline{Key R\&D Contributions}
+
+                         % ------ Doppler Ambiguity Head ------ %    
+\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
   \raisebox{1.3em}{\includegraphics[width=0.9cm]{images/scantinel_logo.png}} & 
   \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
   \centering
@@ -141,50 +143,79 @@
   } &
   \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
     \raggedright
-    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Senior Algorithm and Data Processing Developer,}}}}
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Lidar Doppler Ambiguity,}}}}
     {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Scantinel Photonics GmbH, Ulm Germany}}
   \end{minipage}}
-\end{tabular}                                  
+\end{tabular}
 
-                                  % ------ Scantinel Block ------ %
+                         % ------ Doppler Ambiguity Body ------ %          
 \vspace{-1em}
 \begin{itemize}[leftmargin=*]
- \item Conducted R\&D, implementation, testing and enhancing of a novel algorithm for Doppler ambiguity in FMCW LiDAR systems.
+  \item Responsible of R\&D, implementation, testing and enhancing of a novel algorithm for Doppler ambiguity in FMCW LiDAR systems.
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/doppler-ambiguity-solution}{Sources}}}: VQRV, VTRV, VQR}}
-  
-\vspace{0.2em}
+\end{itemize}
 
+                            % ------ Perception Head ------ %   
+\vspace{1em}                       
+\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
+  \raisebox{1.3em}{\includegraphics[width=0.9cm]{images/scantinel_logo.png}} & 
+  \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
+  \centering
+    \textcolor{blocktitle1_color}{Sep. 21}\\
+    \textcolor{blocktitle1_color}{Sep. 22}
+  \end{minipage} 
+  } &
+  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
+    \raggedright
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Perception,}}}}
+    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Scantinel Photonics GmbH, Ulm Germany}}
+  \end{minipage}}
+\end{tabular}
+
+
+                           % ------ Perception Body  ------ %
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
   \item Proposed and implemented an internal perception pipeline (filtering, segmentation, object detection, tracking).\\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/projects/perception}{Sources}}}: Ransac, knn, kd-tree, JPDA Tracking}}. 
   \item Designed novel filters improving performance from 450 ms to 30 ms 
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/real-time-filtering}{Sources}}}: Dense Cluster Filter “DCL” and the Multilevel Neighboring Filter “MLN”}}
-  
-\vspace{0.2em}
 
- \item Implemented and applied classical windowing and detection methods on raw signal data to evaluate detection reliability, supported by statistical analysis. 
+\end{itemize}
+
+
+
+
+                            % ------ Data Analysis Head ------ %           
+\vspace{1.3em}                       
+\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
+  \raisebox{-0.5em}{\includegraphics[width=0.9cm]{images/scantinel_logo.png}} & 
+  \raisebox{1em}{\begin{minipage}[t]{\linewidth}
+  \centering
+    \textcolor{blocktitle1_color}{Jun. 23}\\
+    \textcolor{blocktitle1_color}{Oct. 23}
+  \end{minipage} 
+  } &
+  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
+    \raggedright
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Time–Frequency Signal Analysis and Comparative Evaluation of Detection Methods,}}}}
+    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Scantinel Photonics GmbH, Ulm Germany}}
+  \end{minipage}}
+\end{tabular}
+
+
+                           % ------ Data Analysis Body  ------ %
+                         
+\vspace{1em}
+\begin{itemize}[leftmargin=*]
+  \item Implemented and applied classical windowing and detection methods on raw signal data to evaluate detection reliability, supported by statistical analysis. 
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/data-analysis}{Sources}: Windows (Hann, Chebyshev, Planck-Taper), Peak Detection: (CA-CFAR, OS-CFAR, RANSAC, M-estimator)}}
-  
-\vspace{0.2em}
-  
   \item Simulated a dual-signal FFT technique real/imaginary packing to enable simultaneous processing.
+\end{itemize}
 
-\vspace{0.2em}  
-  
-  \item Architected the system software using MVC pattern in PyQt, coordinating closely with the embedded team to align hardware and software development efforts. 
-  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: Pattern design MVC/MVVM }}    
-  
-\vspace{0.2em}
 
-  \item  Developed and maintained real-time and offline visualization GUIs supporting continuous feature development and release cycles for internal users and customers over two years. 
-  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: python, PyQt}} 
 
-\vspace{0.2em}  
-      
-  \item Developed a user-facing GUI integrating multiple signal processing algorithms and visualization tools, enabling interactive analysis and testing across devices with real-time performance evaluation.
-
-\end{itemize}                
-                
-                                  % ------ Navimatix Head ------ %                 
-\vspace{2em}                                  
+                              % ------ Navimatix Head ------ %
+\vspace{1em}
 \begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
   \raisebox{1.3em}{\includegraphics[width=0.9cm]{images/navi2_logo.png}} & 
   \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
@@ -195,31 +226,51 @@
   } &
   \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
     \raggedright
-    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Software Developer,}}}}
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Automated Image Analysis for Segmenting Bacteria,}}}}
     {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Navimatix GmbH, Jena Germany}}
   \end{minipage}}
-\end{tabular}    
+\end{tabular}
 
-                           % ------ Navimatix Block ------ %
+
+                                 % ------ Navimatix Block ------ %
 \vspace{-1em}
 \begin{itemize}[leftmargin=*]
- \item A full pipeline image processing algorithms for bacteria counting on Fluorescence Images.\\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Sources: Median Filter, ISODATA Segmentation, Opening Filter, 2D \& 3D counting}}}
- 
- \vspace{0.2em}
+  \item A full pipeline image processing algorithms for bacteria counting on Fluorescence Images.\\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Sources: Median Filter, ISODATA Segmentation, Opening Filter, 2D \& 3D counting}}}
+\end{itemize}
 
-  \item Developed a GUI applying image processing algorithm on Microscopic Images to count bacteria.
-  
-  \vspace{0.2em}
-  
-  \item Implemented several user interface applications. 
-  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: JavaFX, .Net Framework WPF and Delphi.}}  
-\end{itemize}  
+                          
 
-                             % ------ Siemens Head ------ %
-\vspace{2em} 
+                             % ------ Master Thesis Head ------ %
+
+\vspace{1em}
 \begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
-  \raisebox{-0.3em}{\includegraphics[width=0.9cm]{images/siemens4_logo.jpg}} & 
-  \raisebox{1em}{\begin{minipage}[t]{\linewidth}
+\raisebox{1.3em}{\includegraphics[width=0.9cm]{images/ilmenau1_logo.png}} & 
+  \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
+  \centering
+    \textcolor{blocktitle1_color}{Mar. 17}\\
+    \textcolor{blocktitle1_color}{Feb. 18}
+  \end{minipage} 
+  } &
+  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
+    \raggedright
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Positivity Decomposition Algorithms on EEG/MEG Data,}}}}
+    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Master Thesis, MSCSP Group, TU Ilmenau}}
+  \end{minipage}}
+\end{tabular}                               
+
+                                % ------ Master Thesis Block ------ %
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+  \item Implemented non-negativity constraints on tensor-based blind source separation algorithm 
+  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Sources: {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://ieeexplore.ieee.org/document/8313193}{Publication}}, {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/non-negative-semi-algebraic-cp-decomposition-via-simultaneous-matrix-diagonalization}{Thesis Publication (not completed)}}}}}}
+\end{itemize}
+
+
+                             % ------ Advanced Research Head ------ %
+\vspace{1.3em}
+\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
+  \raisebox{-0.5em}{\includegraphics[width=0.9cm]{images/ilmenau1_logo.png}} & 
+  \raisebox{0.3em}{\begin{minipage}[t]{\linewidth}
   \centering
     \textcolor{blocktitle1_color}{Sep. 16}\\
     \textcolor{blocktitle1_color}{Feb. 17}
@@ -227,129 +278,22 @@
   } &
   \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
     \raggedright
-    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Working Student,}}}}
-    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Siemens, Network R\&D, Munich Germany}}
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Decomposition of a Low Rank Tensor with Missing Entries,}}}}
+    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Advanced Research Project, MSCSP Group, TU Ilmenau}}
   \end{minipage}}
-\end{tabular}                                
+\end{tabular}                                  
 
-                                 % ------ Siemens Block ------ %
+                                % ------ Advanced Research Block ------ %
 \vspace{0.4em}
 \begin{itemize}[leftmargin=*]
-  \item Implemented a simulation of TSN Scheduler as well as converter from SDN controller using C++.\\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Sources: C++, Omnet++, }}} {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://1.ieee802.org/tsn/}{Time Sensitive Network for Industry v.4}}}.       
-\end{itemize}    
-
-
-                             % ------ Orange Head ------ %
-\vspace{2em} 
-\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
-  \raisebox{-0.3em}{\includegraphics[width=0.9cm]{images/orange_logo.jpg}} & 
-  \raisebox{1em}{\begin{minipage}[t]{\linewidth}
-  \centering
-    \textcolor{blocktitle1_color}{Jul. 11}\\
-    \textcolor{blocktitle1_color}{Aug. 14}
-  \end{minipage} 
-  } &
-  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
-    \raggedright
-    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Customer Technical Network Specialist,}}}}
-    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Orange Business Services, Cairo Egypt}}
-  \end{minipage}}
-\end{tabular} 
-
-
-                                 % ------ Orange Block ------ %
-\vspace{0.4em}
-\begin{itemize}[leftmargin=*]
-  \item Diagnose WAN network fault-related cases both proactive and reactive being responsible of the faults to resolution.
-
-\vspace{0.2em}  
-  
-  \item Shift Leader for a group of 5 to 10 daily, managing the workflow through the team. 
-\end{itemize}
-
-\newpage  
-
-
-                                   % ------ Education ------ %
-
-\sectionline{Education}                                 
-                                  % ------ Master Head ------ %                         
-{\hspace{1.5em}}\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
-  \raisebox{1.3em}{\includegraphics[width=0.9cm]{images/ilmenau1_logo.png}} & 
-  \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
-  \centering
-    \textcolor{blocktitle1_color}{Sep. 14}\\
-    \textcolor{blocktitle1_color}{Feb. 18}
-  \end{minipage} 
-  } &
-  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
-    \raggedright
-    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{M.Sc. in Communications and Signal Processing,}}}}
-    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Technische Universität Ilmenau, Germany}}
-  \end{minipage}}
-\end{tabular}   
-
-                                  % ------ Master Block ------ %
-\vspace{-1em}
-\begin{itemize}[leftmargin=*]
-  \item Major Subjects: Mobile Communications Engineering, Adaptive Array and Signal Processing, Digital Signal Processing (audio and Image) and Communication Networks.
-  \item Average grade: 2.2/1.0
-
-\vspace{0.2em}
-
-  \item \underline{\textbf{Master Thesis 'Positivity Decomposition Algorithms on EEG/MEG Data'}}: Implemented non-negativity constraints on tensor-based blind source separation algorithm 
-  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Sources: {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://ieeexplore.ieee.org/document/8313193}{Publication}}, {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/non-negative-semi-algebraic-cp-decomposition-via-simultaneous-matrix-diagonalization}{Thesis Publication (not completed)}}}}}}
-
-\vspace{0.2em}  
-
-  \item \underline{\textbf{Advanced Research Project 'Decomposition of a Low Rank Tensor with Missing Entries'}}: Developed a missing imputation tensor algorithm to make it adaptive as per step size and rank estimation.
+  \item Developed a missing imputation tensor algorithm to make it adaptive as per step size and rank estimation.
   \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/decomposition-of-a-low-rank-tensor-with-missing-entries}{Sources}}}       
-\end{itemize}                          
+\end{itemize}              
 
-                                         
-                                 
-                                   % ------ Bachelor Head ------ %  
-\vspace{2em}                       
-\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
-  \raisebox{1.3em}{\includegraphics[width=1cm]{images/astmt5_logo.png}} & 
-  \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
-  \centering
-    \textcolor{blocktitle1_color}{Sep. 05}\\
-    \textcolor{blocktitle1_color}{Feb. 10}
-  \end{minipage}
-  } &
-  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
-    \raggedright
-    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{B.Sc. in Electronics and Communication,}}}}
-    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Arab Academy for Science and Technology, Alexandria}}
-  \end{minipage}}
-\end{tabular}             
-
-                                  % ------ Bachelor Block ------ %
-\vspace{-1em}
-\begin{itemize}[leftmargin=*]
-  \item Major Subjects: Wireless and Mobile Communications, Analog and Digital Signal Processing, Communication Networks, Electromagnetic and Antenna theories.
-
-\vspace{0.2em}  
-  
-  \item Average grade: 1.3/1.0 – Excellent with degree of honor besides graduating top of my class.
-\end{itemize}   
+                        
 
 
-% Courses
-\sectionline{Certificates and Online Courses}
-\begin{itemize}[leftmargin=*]
-  \item 22 May 2019: \href{https://www.udemy.com/certificate/UC-XN2ILPOB/}{OOP in Java — Udemy}
-  \item 24 Aug. 2020: \href{https://coursera.org/share/e32b80d8e0b32b48e4ad6fe40cea746e}{Machine Learning — Coursera}
-  \item 14 May 2021: \href{https://coursera.org/share/15d74342746d2872a09dcc5a75ff460c}{Structuring ML Projects — Coursera}
-  \item 30 Apr. 2021: \href{https://coursera.org/share/0ca157f56b99f56122ab247589555837}{Neural Networks and Deep Learning — Coursera}
-  \item 04 Jun. 2021: \href{https://coursera.org/share/e0bd7b6ea301e1108dfe609c783f2706}{Convolutional Neural Networks — Coursera}
-  \item 07 May 2021: \href{https://coursera.org/share/ef6671ff524b9d2e5c1e0e282d457f56}{Improving DNN Hyperparameter Tuning, Regularization and Optimization — Coursera}
-  \item 24 Aug. 2021: \href{http://www.udacity.com/certificate/e/95ce8498-c21f-11eb-aa1a-5f098308d726}{Sensor Fusion — Udacity (Mercedes Benz)}
-\end{itemize}          
-
-             %% ---------------- Technical Skills ---------------- %%   
-
+                      %% ---------------- Technical Skills ---------------- %%     
 \sectionline{Technical Skills}
 \hspace*{-0.1em}  % try -1em or adjust as needed
 \noindent\makebox[\textwidth][c]{%
@@ -397,6 +341,179 @@ C\# & \circles{3}{6}
   \end{center}
 \end{minipage}%
 }
+
+
+                      %% ---------------- Industry Experience ---------------- %%
+                      
+\newpage
+\sectionline{Industry Experience}                    
+                                    % ------ Scantinel Head ------ %                         
+{\hspace{1.5em}}\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
+  \raisebox{1.3em}{\includegraphics[width=0.9cm]{images/scantinel_logo.png}} & 
+  \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
+  \centering
+    \textcolor{blocktitle1_color}{Sep. 21}\\
+    \textcolor{blocktitle1_color}{Present}
+  \end{minipage} 
+  } &
+  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
+    \raggedright
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Senior Algorithm and Data Processing Developer,}}}}
+    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Scantinel Photonics GmbH, Ulm Germany}}
+  \end{minipage}}
+\end{tabular}                                  
+
+                                  % ------ Scantinel Block ------ %
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+  \item Architected the system software using MVC pattern in PyQt, coordinating closely with the embedded team to align hardware and software development efforts. 
+  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: Pattern design MVC/MVVM }}    
+  \item  Developed and maintained real-time and offline visualization GUIs supporting continuous feature development and release cycles for internal users and customers over two years. 
+  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: python, PyQt}}     
+  \item Developed a user-facing GUI integrating multiple signal processing algorithms and visualization tools, enabling interactive analysis and testing across devices with real-time performance evaluation.
+  \item implementing testing development creating unit, integration and functional testing. 
+  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: pytest}}  
+\end{itemize}                
+                
+                                  % ------ Navimatix Head ------ %                 
+\vspace{1em}                                  
+\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
+  \raisebox{1.3em}{\includegraphics[width=0.9cm]{images/navi2_logo.png}} & 
+  \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
+  \centering
+    \textcolor{blocktitle1_color}{Jan. 19}\\
+    \textcolor{blocktitle1_color}{Jul. 21}
+  \end{minipage} 
+  } &
+  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
+    \raggedright
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Software Developer,}}}}
+    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Navimatix GmbH, Jena Germany}}
+  \end{minipage}}
+\end{tabular}    
+
+                           % ------ Navimatix Block ------ %
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+  \item Developed a GUI applying image processing algorithm on Microscopic Images to count bacteria.
+  \item Implemented several user interface applications. 
+  \\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Skills: JavaFX, .Net Framework WPF and Delphi.}}  
+\end{itemize}  
+
+                             % ------ Siemens Head ------ %
+\vspace{1.3em}
+\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
+  \raisebox{-0.3em}{\includegraphics[width=0.9cm]{images/siemens4_logo.jpg}} & 
+  \raisebox{1em}{\begin{minipage}[t]{\linewidth}
+  \centering
+    \textcolor{blocktitle1_color}{Sep. 16}\\
+    \textcolor{blocktitle1_color}{Feb. 17}
+  \end{minipage} 
+  } &
+  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
+    \raggedright
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Working Student,}}}}
+    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Siemens, Network R\&D, Munich Germany}}
+  \end{minipage}}
+\end{tabular}                                
+
+                                 % ------ Siemens Block ------ %
+\vspace{0.4em}
+\begin{itemize}[leftmargin=*]
+  \item Implemented a simulation of TSN Scheduler as well as converter from SDN controller using C++.\\ {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{Sources: C++, Omnet++, }}} {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://1.ieee802.org/tsn/}{Time Sensitive Network for Industry v.4}}}.       
+\end{itemize}    
+
+
+                             % ------ Orange Head ------ %
+\vspace{1.3em}
+\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
+  \raisebox{-0.3em}{\includegraphics[width=0.9cm]{images/orange_logo.jpg}} & 
+  \raisebox{1em}{\begin{minipage}[t]{\linewidth}
+  \centering
+    \textcolor{blocktitle1_color}{Jul. 11}\\
+    \textcolor{blocktitle1_color}{Aug. 14}
+  \end{minipage} 
+  } &
+  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
+    \raggedright
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{Customer Technical Network Specialist,}}}}
+    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Orange Business Services, Cairo Egypt}}
+  \end{minipage}}
+\end{tabular} 
+
+
+                                 % ------ Orange Block ------ %
+\vspace{0.4em}
+\begin{itemize}[leftmargin=*]
+  \item Diagnose WAN network fault-related cases both proactive and reactive being responsible of the faults to resolution.
+  \item Shift Leader for a group of 5 to 10 daily, managing the workflow through the team. 
+\end{itemize}
+
+                                   % ------ Education ------ %
+\sectionline{Education}                                 
+                                  % ------ Master Head ------ %                         
+{\hspace{1.5em}}\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
+  \raisebox{1.3em}{\includegraphics[width=0.9cm]{images/ilmenau1_logo.png}} & 
+  \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
+  \centering
+    \textcolor{blocktitle1_color}{Sep. 14}\\
+    \textcolor{blocktitle1_color}{Feb. 18}
+  \end{minipage} 
+  } &
+  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
+    \raggedright
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{M.Sc. in Communications and Signal Processing,}}}}
+    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Technische Universität Ilmenau, Germany}}
+  \end{minipage}}
+\end{tabular}   
+
+                                  % ------ Master Block ------ %
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+  \item Major Subjects: Mobile Communications Engineering, Adaptive Array and Signal Processing, Digital Signal Processing (audio and Image) and Communication Networks.
+  \item Average grade: 2.2/1.0
+\end{itemize}                          
+
+                                         
+                                 
+                                   % ------ Bachelor Head ------ %  
+\vspace{0.4em}                       
+\begin{tabular}{@{}m{0.5cm}@{\hspace{0.5em}}m{2.2cm}@{\hspace{0.5em}}m{15cm}@{}}
+  \raisebox{1.3em}{\includegraphics[width=1cm]{images/astmt5_logo.png}} & 
+  \raisebox{1.8em}{\begin{minipage}[t]{\linewidth}
+  \centering
+    \textcolor{blocktitle1_color}{Sep. 05}\\
+    \textcolor{blocktitle1_color}{Feb. 10}
+  \end{minipage}
+  } &
+  \raisebox{0.5em}{\begin{minipage}[t]{\linewidth}
+    \raggedright
+    {\fontsize{11pt}{9pt}\selectfont\textbf{\textcolor{blocktitle1_color}{\text{B.Sc. in Electronics and Communication,}}}}
+    {\fontsize{9pt}{9pt}\selectfont\textcolor{blocktitle2_color}{Arab Academy for Science and Technology, Alexandria}}
+  \end{minipage}}
+\end{tabular}             
+
+                                  % ------ Bachelor Block ------ %
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+  \item Major Subjects: Wireless and Mobile Communications, Analog and Digital Signal Processing, Communication Networks, Electromagnetic and Antenna theories.
+  \item Average grade: 1.3/1.0 – Excellent with degree of honor besides graduating top of my class.
+\end{itemize}   
+
+
+% Courses
+\sectionline{Certificates and Online Courses}
+\begin{itemize}[leftmargin=*]
+  \item 22 May 2019: \href{https://www.udemy.com/certificate/UC-XN2ILPOB/}{OOP in Java — Udemy}
+  \item 24 Aug. 2020: \href{https://coursera.org/share/e32b80d8e0b32b48e4ad6fe40cea746e}{Machine Learning — Coursera}
+  \item 14 May 2021: \href{https://coursera.org/share/15d74342746d2872a09dcc5a75ff460c}{Structuring ML Projects — Coursera}
+  \item 30 Apr. 2021: \href{https://coursera.org/share/0ca157f56b99f56122ab247589555837}{Neural Networks and Deep Learning — Coursera}
+  \item 04 Jun. 2021: \href{https://coursera.org/share/e0bd7b6ea301e1108dfe609c783f2706}{Convolutional Neural Networks — Coursera}
+  \item 07 May 2021: \href{https://coursera.org/share/ef6671ff524b9d2e5c1e0e282d457f56}{Improving DNN Hyperparameter Tuning, Regularization and Optimization — Coursera}
+  \item 24 Aug. 2021: \href{http://www.udacity.com/certificate/e/95ce8498-c21f-11eb-aa1a-5f098308d726}{Sensor Fusion — Udacity (Mercedes Benz)}
+\end{itemize}          
+
+
 
 \sectionline{Personal Skills}
 
