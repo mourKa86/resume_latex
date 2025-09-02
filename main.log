@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  4 AUG 2025 14:59
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  2 SEP 2025 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1237,6 +1237,18 @@ Overfull \hbox (2.26074pt too wide) in paragraph at lines 483--488
 Overfull \hbox (3.37578pt too wide) in paragraph at lines 481--495
 [][] 
  []
+
+! Misplaced alignment tab character &.
+<argument> Introduction to Deep Learning &
+                                           Neural Networks with Keras — Cour...
+l.513 ...ral Networks with Keras — Coursera (IBM)}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 
 
