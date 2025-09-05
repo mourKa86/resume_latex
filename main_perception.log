@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  2 SEP 2025 22:08
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  5 SEP 2025 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**./main_perception.tex
+(main_perception.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
 (C:\Users\amrab\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -836,8 +836,8 @@ ping=tex-text;"
 (fontspec)             <->"[fonts/calibri.ttf]/OT:script=latn;language=dflt;+sm
 cp;mapping=tex-text;"
 
- (main.aux)
-\openout1 = `main.aux'.
+ (main_perception.aux)
+\openout1 = `main_perception.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
@@ -975,11 +975,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package hyperref Info: Link coloring ON on input line 76.
-(main.out) (main.out)
+(main_perception.out) (main_perception.out)
 \@outlinefile=\write4
-\openout4 = `main.out'.
+\openout4 = `main_perception.out'.
 
-
+ (categories/header.tex
 (C:\Users\amrab\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
@@ -989,10 +989,10 @@ File: images/my_image.jpg Graphic file (type bmp)
 
 
 LaTeX Font Warning: Font shape `TU/calibri.ttf(0)/b/n' undefined
-(Font)              using `TU/calibri.ttf(0)/m/n' instead on input line 96.
+(Font)              using `TU/calibri.ttf(0)/m/n' instead on input line 19.
 
 
-Overfull \hbox (39.8302pt too wide) in paragraph at lines 97--98
+Overfull \hbox (39.8302pt too wide) in paragraph at lines 20--21
  []|[]\TU/calibri.ttf(0)/m/n/40 Aboughazala[] 
  []
 
@@ -1002,110 +1002,112 @@ fg
 File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
 ndard glyph set (RS)
 )
-Overfull \hbox (8.98018pt too wide) in paragraph at lines 102--118
+Overfull \hbox (8.98018pt too wide) in paragraph at lines 25--41
 []|  [] 
  []
 
+) (categories/perception/objective.tex
 
 LaTeX Font Warning: Font shape `TU/cambriab.ttf(0)/b/n' undefined
-(Font)              using `TU/cambriab.ttf(0)/m/n' instead on input line 126.
+(Font)              using `TU/cambriab.ttf(0)/m/n' instead on input line 2.
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cambriab.ttf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+) (categories/perception/industry.tex
 File: images/scantinel_logo.png Graphic file (type bmp)
 <images/scantinel_logo.png>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 135--135
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 6--6
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 136--141
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 7--12
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 134--148
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 5--19
  [] 
  []
 
 File: images/navi2_logo.png Graphic file (type bmp)
 <images/navi2_logo.png>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 189--189
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 47--47
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 190--195
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 48--53
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 188--202
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 46--60
 [][] 
  []
 
 File: images/siemens4_logo.jpg Graphic file (type bmp)
 <images/siemens4_logo.jpg>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 221--221
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 79--79
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 222--227
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 80--85
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 220--234
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 78--92
 [][] 
  []
 
 File: images/orange_logo.jpg Graphic file (type bmp)
 <images/orange_logo.jpg>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 245--245
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 111--111
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 246--251
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 112--117
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 244--258
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 110--124
 [][] 
  []
 
-
+) (categories/perception/personal_projects.tex)
 
 [1
 
-]
+] (categories/education.tex
 File: images/ilmenau1_logo.png Graphic file (type bmp)
 <images/ilmenau1_logo.png>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 278--278
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 6--6
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 279--284
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 7--12
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 277--291
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 5--19
  [] 
  []
 
 
-Overfull \hbox (3.56017pt too wide) in paragraph at lines 300--302
+Overfull \hbox (3.56017pt too wide) in paragraph at lines 28--30
 []$[]$\TU/calibri.ttf(0)/b/n/10 : Implemented non-negativity constraints on ten
 sor-based
  []
@@ -1113,50 +1115,43 @@ sor-based
 File: images/astmt5_logo.png Graphic file (type bmp)
 <images/astmt5_logo.png>
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 314--314
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 42--42
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 315--320
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 43--48
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 313--327
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 41--55
 [][] 
  []
 
-! Misplaced alignment tab character &.
-<argument> Introduction to Deep Learning &
-                                           Neural Networks with Keras — Cour...
-l.349 ...ral Networks with Keras — Coursera (IBM)}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+) (categories/certificates.tex) (categories/technical_skills.tex
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 \TU/calibri.ttf(0)/b/n/10 PLOT: matplotlib, plotly, pyqt-
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 400--400
+Underfull \hbox (badness 3735) in paragraph at lines 49--49
 \TU/calibri.ttf(0)/b/n/10 LIDAR: open3D, OpenMMLab, Open3D-
  []
 
-
-Overfull \hbox (0.50711pt too wide) in paragraph at lines 355--401
-|  [] 
+)
+Overfull \hbox (0.50711pt too wide) in paragraph at lines 4--93
+|  []
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 4--93
 
-[2] (main.aux)
+ []
+
+(categories/personal_skills.tex)
+
+[2] (main_perception.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
@@ -1165,16 +1160,16 @@ L3 programming layer <2025-03-26>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
+Package rerunfilecheck Info: File `main_perception.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26446 strings out of 405075
- 517745 string characters out of 5499983
- 988903 words of memory out of 5000000
- 52694 multiletter control sequences out of 15000+600000
+ 26496 strings out of 405075
+ 519515 string characters out of 5499983
+ 990947 words of memory out of 5000000
+ 52718 multiletter control sequences out of 15000+600000
  630080 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,12n,93p,1003b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,1014b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (2 pages).
+Output written on main_perception.pdf (2 pages).

@@ -1,0 +1,96 @@
+\documentclass[10pt,a4paper]{article}
+
+
+
+% Basic packages only
+\usepackage[top=0.2in, bottom=0.2in, left=0.5in, right=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{pagecolor}
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{xparse}
+
+
+% Custom colors
+\definecolor{bgcolor_color}{HTML}{FFFFFF}    % White background
+\definecolor{name_color}{HTML}{1a1a1a}       % Very dark gray for name
+\definecolor{surname_color}{HTML}{444444}    % Medium gray for surname
+\definecolor{title_color}{HTML}{2a4b7c}       % Professional blue for section titles
+\definecolor{blocktitle1_color}{HTML}{2a4b7c} % Match section titles
+\definecolor{blocktitle2_color}{HTML}{666666} % Lighter gray for company names or roles
+\definecolor{blocktext1_color}{HTML}{000000}  % Main text in black
+\definecolor{blocktext2_color}{HTML}{4d4d4d}  % Descriptive text / sources
+\definecolor{linkcolor}{HTML}{1a73e8}         % Google-style link blue
+\definecolor{skilltitle_color}{HTML}{2a4b7c}  % Same as title for consistency
+\definecolor{filled_circle}{HTML}{2a4b7c}     % Filled skill circle in blue
+\definecolor{empty_circle}{HTML}{cccccc}      % Empty circle in light gray
+\definecolor{dimmed}{HTML}{999999}            % For secondary info like language levels
+
+
+
+\usepackage[colorlinks=true, linkcolor=linkcolor, urlcolor=linkcolor]{hyperref}
+\newfontfamily\cambria{cambriab.ttf}[Path=fonts/]
+\setmainfont{calibri.ttf}[Path=fonts/]
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\centering} % font size, bold, centered
+  {} % no section number
+  {0pt} % no extra spacing between label and title
+  {} % what to insert before the title
+
+\pagecolor{bgcolor_color} % sets full background
+\color{blocktext1_color}
+
+\newcommand{\sectionline}[1]{%
+  \vspace{0.5em}
+  \begin{center}
+    \textcolor{title_color}{\rule[0.5ex]{0.25\linewidth}{0.5pt}}
+    ~{\LARGE \bfseries \textcolor{title_color}{\cambria #1}}~
+    \textcolor{title_color}{\rule[0.5ex]{0.25\linewidth}{0.5pt}}
+  \end{center}
+  \vspace{0.05em}
+}
+
+
+\ExplSyntaxOn
+\NewDocumentCommand{\circles}{mm}
+ {
+  \prg_replicate:nn { #1 } { \textcolor{filled_circle}{\large ●} }
+  \prg_replicate:nn { \int_eval:n { #2 - #1 } } { \textcolor{empty_circle}{\large ●} }
+ }
+\ExplSyntaxOff
+
+\titlespacing*{\section}{0pt}{0.8em}{0.4em}
+\setlist[itemize]{topsep=0pt, partopsep=0pt, itemsep=2pt, parsep=0pt}
+
+
+\begin{document}
+
+\input{categories/header.tex}
+
+\input{categories/perception/objective.tex}
+
+\input{categories/perception/industry.tex}
+
+\input{categories/perception/personal_projects.tex}
+
+\newpage  
+
+\input{categories/education.tex}
+
+\input{categories/certificates.tex}
+
+\input{categories/technical_skills.tex} 
+
+\input{categories/personal_skills.tex} 
+
+\end{document}
