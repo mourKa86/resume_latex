@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  5 SEP 2025 16:16
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  5 SEP 2025 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1053,34 +1053,34 @@ Overfull \hbox (3.37578pt too wide) in paragraph at lines 46--60
 File: images/siemens4_logo.jpg Graphic file (type bmp)
 <images/siemens4_logo.jpg>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 79--79
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 78--78
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 80--85
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 79--84
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 78--92
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 77--91
 [][] 
  []
 
 File: images/orange_logo.jpg Graphic file (type bmp)
 <images/orange_logo.jpg>
 
-Overfull \hbox (11.38094pt too wide) in paragraph at lines 111--111
+Overfull \hbox (11.38094pt too wide) in paragraph at lines 110--110
 []|[]| 
  []
 
 
-Overfull \hbox (2.26074pt too wide) in paragraph at lines 112--117
+Overfull \hbox (2.26074pt too wide) in paragraph at lines 111--116
 []|[]| 
  []
 
 
-Overfull \hbox (3.37578pt too wide) in paragraph at lines 110--124
+Overfull \hbox (3.37578pt too wide) in paragraph at lines 109--123
 [][] 
  []
 
@@ -1166,7 +1166,7 @@ Package rerunfilecheck Info: File `main_perception.out' has not changed.
 Here is how much of TeX's memory you used:
  26496 strings out of 405075
  519515 string characters out of 5499983
- 990947 words of memory out of 5000000
+ 989947 words of memory out of 5000000
  52718 multiletter control sequences out of 15000+600000
  630080 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
