@@ -20,26 +20,33 @@
                          % ------ Scantinel Block ------ %
 \vspace{-1em}
 \begin{itemize}[leftmargin=*]
-\item Developed the novel algorithm 
-{\href{https://amr-aboughazala.super.site/doppler-ambiguity-solution}{VQRV}}, solving Doppler ambiguity in FMCW LiDAR and improving velocity 
-estimation for fast-moving nearby vehicles.
 
-\vspace{0.2em}
-
-\item Designed novel filters ({\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/real-time-filtering}{MLN, DCL}}}) on 3D noisy Point Cloud Data for real time visualization.
-
-\vspace{0.2em}
-  
-\item Implemented several raw-time domain filtering (Hann, Chebyshev, Planck-Taper) and peak detection (CA-CFAR, OS-CFAR, RANSAC, M-estimator) algorithms supported by \href{https://amr-aboughazala.super.site/data-analysis}{statistical analysis}. 
+\item Developed a {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/doppler-ambiguity-solution}{novel algorithm}}} addressing Doppler ambiguity in FMCW LiDAR, improving velocity estimation for fast-moving nearby targets. Starting with research on recent publications into practical implementations with CARLA-based simulation and deployment on real-time embedded systems.
 
 
 \vspace{0.2em}
 
-\item Contributed to real-time communication software between Scan Controller, ARM processor, and host PC, working with UDP/TCP protocols and PTP synchronization, including troubleshooting to improve data transmission stability.
+\item Implemented an internal {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/perception}{perception pipeline}}} with point cloud {\fontsize{10pt}{10pt}\selectfont\textcolor{blocktext2_color}{\href{https://amr-aboughazala.super.site/real-time-filtering}{novel filtering}}} algorithms, Ransac segmentation, kNN, KD-tree for object detection and Kalman tracking. Implemented PointNet and PV-RCNN in PyTorch using OpenPCDet, building a Docker-based development environment.
 
-\item Designed and implemented the system software architecture using MVC in PyQt, building real-time and offline visualization tools.
 
-\end{itemize}                
+\vspace{0.2em}
+
+\item Developed \href{https://amr-aboughazala.super.site/data-analysis}{pixel-level GUI statistical analysis tools} to evaluate different filtering and detection algorithms on raw time-base data (Hann, Chebyshev, CFAR, RANSAC, M-estimator).
+
+\vspace{0.2em}
+
+\item Applied Kalman and Extended Kalman Filters for object tracking within LiDAR perception pipelines; familiar with Unscented Kalman Filtering and probabilistic state-estimation techniques.
+
+\vspace{0.2em}
+
+\item Developed and optimized real-time LiDAR processing algorithms for ARM-based embedded systems, ensuring reliable performance between Scan Controller, ARM processor, and host PC via UDP/TCP with PTP synchronization under resource and timing constraints.
+
+\vspace{0.2em}
+
+\item Designed and implemented the LiDAR system software architecture using MVC in PyQt, integrating real-time and offline visualization tools.
+
+
+\end{itemize}                               
                 
                                   % ------ Navimatix Head ------ %                 
 \vspace{1.5em}                                  
@@ -61,11 +68,14 @@ estimation for fast-moving nearby vehicles.
                            % ------ Navimatix Block ------ %
 \vspace{-1em}
 \begin{itemize}[leftmargin=*]
+
 \item Implemented an image processing pipeline for 
-\href{https://amr-aboughazala.super.site/biofilm-bacteria-counting}{bacteria counting} 
-on fluorescence microscopy images (E. coli, P. aeruginosa, M. tuberculosis, S. aureus), 
-integrating ImageJ/FIJI APIs in a JavaFX GUI. The workflow applied Median filtering, 
-ISODATA segmentation, Opening filters, and 2D/3D object counting for semi-automated analysis.
+\href{https://amr-aboughazala.super.site/biofilm-bacteria-counting}{bacteria counting} on fluorescence microscopy images (E. coli, P. aeruginosa, M. tuberculosis, S. aureus), integrating ImageJ/FIJI APIs in a JavaFX GUI.
+
+\vspace{0.2em}
+
+\item The workflow applied Median filtering, 
+ISODATA segmentation, Opening filters, and 2D/3D object counting using convex-acute angles to separate overlapping Bacteria.
 
 \vspace{0.2em}
   
@@ -92,13 +102,11 @@ ISODATA segmentation, Opening filters, and 2D/3D object counting for semi-automa
                                  % ------ Siemens Block ------ %
 \vspace{0.4em}
 \begin{itemize}[leftmargin=*]
-\item Implemented a simulation of the IEEE Time‐Sensitive Networking (TSN) Scheduler for Industry 4.0 applications, modeling deter‐
-ministic network protocol behavior for synchronized real‐time traffic.
+\item Implemented a simulation of the IEEE Time‐Sensitive Networking (TSN) Scheduler using Omnet++ with C++ 13.
  
 \vspace{0.2em} 
  
-\item Developed a C++ parser to integrate SDN Controller outputs into the network simulator, enabling accurate analysis of transmission
-delays and end‐to‐end latency across the topology.
+\item Developed a C++ parser to integrate SDN Controller output topology into the omnet++ simulator, enabling real time analysis of chosen topology.
 
  
 \end{itemize}    
