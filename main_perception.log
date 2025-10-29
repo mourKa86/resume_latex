@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  28 OCT 2025 12:58
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  29 OCT 2025 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1330,7 +1330,7 @@ Package rerunfilecheck Info: File `main_perception.out' has not changed.
 Here is how much of TeX's memory you used:
  30517 strings out of 405075
  628614 string characters out of 5499983
- 1218497 words of memory out of 5000000
+ 1217497 words of memory out of 5000000
  56644 multiletter control sequences out of 15000+600000
  630080 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
