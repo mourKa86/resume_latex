@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  2 DEC 2025 00:02
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  11 DEC 2025 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -879,40 +879,15 @@ Overfull \hbox (6.59996pt too wide) in paragraph at lines 19--19
 []|[][][]|  
  []
 
+File: images/noha_image.jpg Graphic file (type bmp)
+<images/noha_image.jpg>
 
-Overfull \hbox (7.84996pt too wide) in paragraph at lines 22--22
-[]|[][][]|  
- []
-
-
-Overfull \hbox (6.59996pt too wide) in paragraph at lines 23--23
-[]|[][][]|  
- []
-
-
-Overfull \hbox (8.77997pt too wide) in paragraph at lines 24--24
-[]|[][][]|  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
-
- []
-
-File: my image.jpg Graphic file (type bmp)
-<my image.jpg>
-
-Overfull \hbox (15.93173pt too wide) in paragraph at lines 36--37
+Overfull \hbox (15.93173pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
-) (experience.tex
+) (berufserfahrung.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
@@ -955,14 +930,9 @@ Package fontspec Info:
 (fontspec)             Light/BI/OT:script=latn;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/RubikLight(1)/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 8.
+(Font)              scaled to size 8.00003pt on input line 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
@@ -971,17 +941,57 @@ Package fontspec Info:
 (fontspec)             Rubik Light scale = 0.8.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-) (education.tex
+
+Package fontspec Info: 
+(fontspec)             Rubik Light scale = 0.8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Package fontspec Info: 
+(fontspec)             Rubik Light scale = 0.8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Package fontspec Info: 
+(fontspec)             Rubik Light scale = 0.8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Package fontspec Info: 
+(fontspec)             Rubik Light scale = 0.8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Package fontspec Info: 
+(fontspec)             Rubik Light scale = 0.8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+) (bildung.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
@@ -995,7 +1005,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Package fontspec Info: 
+(fontspec)             Rubik Light scale = 0.8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
@@ -1004,11 +1018,39 @@ Package fontspec Info:
 (fontspec)             Rubik Light scale = 0.8.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-) (skills.tex
+) (weiterbildung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
+
+ []
+
+
+Package fontspec Info: 
+(fontspec)             Rubik Light scale = 0.8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Package fontspec Info: 
+(fontspec)             Rubik Light scale = 0.8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+) (sprachen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
+
+ []
+
+) (hobbies.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--4
 
  []
@@ -1026,12 +1068,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23833 strings out of 405075
- 476085 string characters out of 5499983
- 905641 words of memory out of 5000000
+ 23835 strings out of 405075
+ 476132 string characters out of 5499983
+ 895644 words of memory out of 5000000
  50078 multiletter control sequences out of 15000+600000
- 627850 words of font info for 86 fonts, out of 8000000 for 9000
+ 627834 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,11n,96p,396b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,10n,96p,396b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (1 page).
