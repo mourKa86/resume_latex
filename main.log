@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  11 DEC 2025 16:06
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  5 JUL 2026 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,7 +968,7 @@ Package fontspec Info:
 (fontspec)             Rubik Light scale = 0.8.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
@@ -977,7 +977,7 @@ Package fontspec Info:
 (fontspec)             Rubik Light scale = 0.8.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
@@ -986,7 +986,16 @@ Package fontspec Info:
 (fontspec)             Rubik Light scale = 0.8.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Package fontspec Info: 
+(fontspec)             Rubik Light scale = 0.8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
@@ -1018,7 +1027,16 @@ Package fontspec Info:
 (fontspec)             Rubik Light scale = 0.8.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+Package fontspec Info: 
+(fontspec)             Rubik Light scale = 0.8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
@@ -1070,7 +1088,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  23835 strings out of 405075
  476132 string characters out of 5499983
- 895644 words of memory out of 5000000
+ 897644 words of memory out of 5000000
  50078 multiletter control sequences out of 15000+600000
  627834 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
