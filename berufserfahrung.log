@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  11 DEC 2025 16:06
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.5.3)  23 AUG 2026 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1010,7 +1010,7 @@ Overfull \hbox (26.12pt too wide) in paragraph at lines 70--71
  []
 
 ! Undefined control sequence.
-l.72 {\setmainfont
+l.75 {\setmainfont
                   {Rubik Medium}\fontsize{10}{14}\selectfont\textcolor{blue}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1025,7 +1025,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 {\setmainfont{R
+l.75 {\setmainfont{R
                     ubik Medium}\fontsize{10}{14}\selectfont\textcolor{blue}...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1043,8 +1043,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.72 ...ium}\fontsize{10}{14}\selectfont\textcolor
-                                                  {blue}{Dr. Rasha Shobaky K...
+l.75 ...ium}\fontsize{10}{14}\selectfont\textcolor
+                                                  {blue}{Zahnarztpraxis Kreu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1052,47 +1052,77 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 72--73
+Overfull \hbox (20.0pt too wide) in paragraph at lines 75--76
 []
  []
 
 
-Overfull \hbox (32.68001pt too wide) in paragraph at lines 72--73
-\TU/lmr/m/n/10 blueDr.
+Overfull \hbox (38.34pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 blueZah-
  []
 
 
-Overfull \hbox (26.86pt too wide) in paragraph at lines 72--73
-\TU/lmr/m/n/10 Rasha
+Overfull \hbox (26.14pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 narzt-
  []
 
 
-Overfull \hbox (37.24pt too wide) in paragraph at lines 72--73
-\TU/lmr/m/n/10 Shobaky
+Overfull \hbox (26.48pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 praxis
  []
 
 
-Overfull \hbox (26.96pt too wide) in paragraph at lines 72--73
-\TU/lmr/m/n/10 Klinik
+Overfull \hbox (38.39pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 Kreutzer
  []
 
 
-Overfull \hbox (3.33pt too wide) in paragraph at lines 72--73
+Overfull \hbox (16.68001pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 und
+ []
+
+
+Overfull \hbox (18.61pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 Kol-
+ []
+
+
+Overfull \hbox (10.55pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 le-
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 gen
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 75--76
 \TU/lmr/m/n/10 -
  []
 
 
-Overfull \hbox (29.75pt too wide) in paragraph at lines 72--73
-\TU/lmr/m/n/10 Kiefer-
+Overfull \hbox (23.9pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 Stuh-
  []
 
 
-Overfull \hbox (43.93001pt too wide) in paragraph at lines 72--73
-\TU/lmr/m/n/10 orthopäde 
+Overfull \hbox (15.05pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 las-
+ []
+
+
+Overfull \hbox (13.99pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 sis-
+ []
+
+
+Overfull \hbox (18.33pt too wide) in paragraph at lines 75--76
+\TU/lmr/m/n/10 tenz 
  []
 
 ! Undefined control sequence.
-l.74 {\fontspec
+l.77 {\fontspec
                {Rubik Light}[Scale=0.8]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1107,7 +1137,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 {\fontspec{R
+l.77 {\fontspec{R
                  ubik Light}[Scale=0.8]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1134,7 +1164,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.75 \textcolor
+l.78 \textcolor
                {gray}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1147,7 +1177,215 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.76 \faCalendar
+l.79 \faCalendar
+                \hspace{4pt}01/2026 - heute\hspace{1.5em}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.80 \faMapMarker
+                 *\hspace{4pt}Nassau, Rheinland-Pfalz, Deutschland
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 77--82
+[]
+ []
+
+! Undefined control sequence.
+l.86 {\setmainfont
+                  {Rubik Medium}\fontsize{10}{14}\selectfont\textcolor{blue}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 {\setmainfont{R
+                    ubik Medium}\fontsize{10}{14}\selectfont\textcolor{blue}...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+! Undefined control sequence.
+l.86 ...ium}\fontsize{10}{14}\selectfont\textcolor
+                                                  {blue}{Dr. Rasha Shobaky K...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 86--87
+[]
+ []
+
+
+Overfull \hbox (32.68001pt too wide) in paragraph at lines 86--87
+\TU/lmr/m/n/10 blueDr.
+ []
+
+
+Overfull \hbox (26.86pt too wide) in paragraph at lines 86--87
+\TU/lmr/m/n/10 Rasha
+ []
+
+
+Overfull \hbox (37.24pt too wide) in paragraph at lines 86--87
+\TU/lmr/m/n/10 Shobaky
+ []
+
+
+Overfull \hbox (26.96pt too wide) in paragraph at lines 86--87
+\TU/lmr/m/n/10 Klinik
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 86--87
+\TU/lmr/m/n/10 -
+ []
+
+
+Overfull \hbox (29.75pt too wide) in paragraph at lines 86--87
+\TU/lmr/m/n/10 Kiefer-
+ []
+
+
+Overfull \hbox (43.93001pt too wide) in paragraph at lines 86--87
+\TU/lmr/m/n/10 orthopäde 
+ []
+
+! Undefined control sequence.
+l.88 {\fontspec
+               {Rubik Light}[Scale=0.8]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 {\fontspec{R
+                 ubik Light}[Scale=0.8]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.89 \textcolor
+               {gray}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+! Undefined control sequence.
+l.90 \faCalendar
                 \hspace{4pt}06/2021 - 04/2025\hspace{1.5em}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1171,7 +1409,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 ! Undefined control sequence.
-l.77 \faMapMarker
+l.91 \faMapMarker
                  *\hspace{4pt}Alexandria, Ägypten
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1199,191 +1437,12 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 74--79
+Overfull \hbox (20.0pt too wide) in paragraph at lines 88--93
 []
  []
 
 ! Undefined control sequence.
-l.88 {\setmainfont
-                  {Rubik Medium}\fontsize{10}{14}\selectfont\textcolor{blue}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 {\setmainfont{R
-                    ubik Medium}\fontsize{10}{14}\selectfont\textcolor{blue}...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no R in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no m in font nullfont!
-! Undefined control sequence.
-l.88 ...ium}\fontsize{10}{14}\selectfont\textcolor
-                                                  {blue}{Louran Dental Care}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 88--89
-[]
- []
-
-
-Overfull \hbox (49.63pt too wide) in paragraph at lines 88--89
-\TU/lmr/m/n/10 blueLouran
- []
-
-
-Overfull \hbox (20.97pt too wide) in paragraph at lines 88--89
-\TU/lmr/m/n/10 Den-
- []
-
-
-Overfull \hbox (11.67pt too wide) in paragraph at lines 88--89
-\TU/lmr/m/n/10 tal
- []
-
-
-Overfull \hbox (20.58pt too wide) in paragraph at lines 88--89
-\TU/lmr/m/n/10 Care 
- []
-
-! Undefined control sequence.
-l.90 {\fontspec
-               {Rubik Light}[Scale=0.8]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 {\fontspec{R
-                 ubik Light}[Scale=0.8]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no R in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no [ in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no ] in font nullfont!
-! Undefined control sequence.
-l.91 \textcolor
-               {gray}{
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no g in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no y in font nullfont!
-! Undefined control sequence.
-l.92 \faCalendar
-                \hspace{4pt}01/2010 - 06/2021\hspace{1.5em}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-! Undefined control sequence.
-l.93 \faMapMarker
-                 *\hspace{4pt}Alexandria, Ägypten
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no * in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no Ä in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 90--95
-[]
- []
-
-! Undefined control sequence.
-l.114 {\setmainfont
+l.102 {\setmainfont
                    {Rubik Medium}\fontsize{10}{14}\selectfont\textcolor{blue...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1398,7 +1457,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 {\setmainfont{R
+l.102 {\setmainfont{R
                      ubik Medium}\fontsize{10}{14}\selectfont\textcolor{blue...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1416,8 +1475,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.114 ...um}\fontsize{10}{14}\selectfont\textcolor
-                                                  {blue}{Dr. Yehia el Haridy...
+l.102 ...um}\fontsize{10}{14}\selectfont\textcolor
+                                                  {blue}{Louran Dental Care}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1425,37 +1484,32 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 114--115
+Overfull \hbox (20.0pt too wide) in paragraph at lines 102--103
 []
  []
 
 
-Overfull \hbox (32.68001pt too wide) in paragraph at lines 114--115
-\TU/lmr/m/n/10 blueDr.
+Overfull \hbox (49.63pt too wide) in paragraph at lines 102--103
+\TU/lmr/m/n/10 blueLouran
  []
 
 
-Overfull \hbox (24.45pt too wide) in paragraph at lines 114--115
-\TU/lmr/m/n/10 Yehia
+Overfull \hbox (20.97pt too wide) in paragraph at lines 102--103
+\TU/lmr/m/n/10 Den-
  []
 
 
-Overfull \hbox (7.22pt too wide) in paragraph at lines 114--115
-\TU/lmr/m/n/10 el
+Overfull \hbox (11.67pt too wide) in paragraph at lines 102--103
+\TU/lmr/m/n/10 tal
  []
 
 
-Overfull \hbox (30.04001pt too wide) in paragraph at lines 114--115
-\TU/lmr/m/n/10 Haridy
- []
-
-
-Overfull \hbox (26.96pt too wide) in paragraph at lines 114--115
-\TU/lmr/m/n/10 Klinik 
+Overfull \hbox (20.58pt too wide) in paragraph at lines 102--103
+\TU/lmr/m/n/10 Care 
  []
 
 ! Undefined control sequence.
-l.116 {\fontspec
+l.104 {\fontspec
                 {Rubik Light}[Scale=0.8]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1470,7 +1524,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 {\fontspec{R
+l.104 {\fontspec{R
                   ubik Light}[Scale=0.8]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1497,7 +1551,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.117 \textcolor
+l.105 \textcolor
                 {gray}{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1510,25 +1564,31 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.118 \faCalendar
-                 \hspace{4pt}2004 - 2008\hspace{1.5em}
+l.106 \faCalendar
+                 \hspace{4pt}01/2010 - 06/2021\hspace{1.5em}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-Missing character: There is no 4 in font nullfont!
 Missing character: There is no - in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 8 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
-l.119 \faMapMarker
+l.107 \faMapMarker
                   *\hspace{4pt}Alexandria, Ägypten
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1556,7 +1616,185 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 116--121
+Overfull \hbox (20.0pt too wide) in paragraph at lines 104--109
+[]
+ []
+
+! Undefined control sequence.
+l.127 {\setmainfont
+                   {Rubik Medium}\fontsize{10}{14}\selectfont\textcolor{blue...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 {\setmainfont{R
+                     ubik Medium}\fontsize{10}{14}\selectfont\textcolor{blue...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+! Undefined control sequence.
+l.127 ...um}\fontsize{10}{14}\selectfont\textcolor
+                                                  {blue}{Dr. Yehia el Haridy...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 127--128
+[]
+ []
+
+
+Overfull \hbox (32.68001pt too wide) in paragraph at lines 127--128
+\TU/lmr/m/n/10 blueDr.
+ []
+
+
+Overfull \hbox (24.45pt too wide) in paragraph at lines 127--128
+\TU/lmr/m/n/10 Yehia
+ []
+
+
+Overfull \hbox (7.22pt too wide) in paragraph at lines 127--128
+\TU/lmr/m/n/10 el
+ []
+
+
+Overfull \hbox (30.04001pt too wide) in paragraph at lines 127--128
+\TU/lmr/m/n/10 Haridy
+ []
+
+
+Overfull \hbox (26.96pt too wide) in paragraph at lines 127--128
+\TU/lmr/m/n/10 Klinik 
+ []
+
+! Undefined control sequence.
+l.129 {\fontspec
+                {Rubik Light}[Scale=0.8]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 {\fontspec{R
+                  ubik Light}[Scale=0.8]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.130 \textcolor
+                {gray}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+! Undefined control sequence.
+l.131 \faCalendar
+                 \hspace{4pt}2004 - 2008\hspace{1.5em}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+! Undefined control sequence.
+l.132 \faMapMarker
+                  *\hspace{4pt}Alexandria, Ägypten
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no Ä in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 129--134
 []
  []
 
@@ -1570,9 +1808,9 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 116--121
 Here is how much of TeX's memory you used:
  21 strings out of 405075
  483 string characters out of 5499983
- 417773 words of memory out of 5000000
+ 418773 words of memory out of 5000000
  26724 multiletter control sequences out of 15000+600000
  626841 words of font info for 42 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 15i,1n,20p,173b,59s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 15i,1n,20p,184b,59s stack positions out of 10000i,1000n,20000p,200000b,200000s
 No pages of output.
